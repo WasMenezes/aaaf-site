@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+  }
+
+
+.container {
+    display: grid;
+  }
+
+header {
+    background: url("../img/Senhora.jpg") no-repeat center;
+    background-size:cover;
+    height: 75vh;
+    width: 100vw;
+    max-height: 800px;
+}
+
+a {
+    text-decoration: none;    
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 45px 0 20px;
+    margin-right: 100px;
+}
+
+.menu a{
+    padding: 0 30px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color: #F02E14;
+    transition: .5s ease;
+}
+
+h3 {
+    font-size:calc(18px + 3.5vw);
+    display: flex;
+    justify-content: flex-end;
+    padding: 45px 0 20px;
+    margin-right: 100px;
+}
+
+@media (max-width: 700px) { 
+    .menu {
+        padding: 45px 0 20px;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .menu a{
+        padding: 0 15px;
+        font-size: 18px;
+        letter-spacing: 0.7px;
+    }
+ }
+
+
+
+
+
+
